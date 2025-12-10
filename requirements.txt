@@ -1,0 +1,26 @@
+
+## **2. requirements.txt**
+
+```txt
+# SubTakeover - Requirements
+# Tools required for the automation script
+
+# Core Dependencies
+Go >= 1.17
+
+# Security Tools (install via go install)
+github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
+github.com/projectdiscovery/dnsx/cmd/dnsx@latest
+github.com/projectdiscovery/httpx/cmd/httpx@latest
+github.com/LukaSikic/subzy@latest
+github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest
+
+# Optional for banner display
+figlet
+
+# Template Requirements
+nuclei-templates (updated regularly)
+
+# Notes:
+# - Run: nuclei -update-templates to get latest takeover templates
+# - Ensure Go binaries are in your PATH (~/go/bin)
