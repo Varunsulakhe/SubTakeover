@@ -37,9 +37,10 @@ This automation integrates the following security tools:
 ### Quick Install
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/SubTakeover.git
+git clone https://github.com/Varunsulakhe/SubTakeover.git
 cd SubTakeover
 
 # Install dependencies
 chmod +x install.sh
+
 ./install.sh
