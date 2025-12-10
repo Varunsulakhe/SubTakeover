@@ -39,7 +39,7 @@ echo "[3] Installing httpx..."
 go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
 
 echo "[4] Installing subzy..."
-go install -v github.com/LukaSikic/subzy@latest
+go install -v github.com/PentestPad/subzy@latest
 
 echo "[5] Installing nuclei..."
 go install -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest
@@ -55,3 +55,4 @@ echo "=============================================="
 echo "[+] Installation Complete!"
 echo "[+] Run: ./takeover.sh example.com"
 echo "=============================================="
+
