@@ -99,17 +99,14 @@ chmod +x subtakeover.sh && sudo mv subtakeover.sh /usr/local/bin/subtakeover
  📁 Output Structure
 
 takeover_target.com/
-├── subs.txt               All subdomains
 
+├── subs.txt               All subdomains
 
 ├── httpx.txt              Live hosts + status codes  
 
-
 ├── subzy.txt              Subzy findings
 
-
 ├── nuclei_takeovers.txt   Nuclei takeover matches
-
 
 └── scan_report.md         Summary report
 
@@ -211,6 +208,7 @@ bash install.sh
 assetfinder target.com | subtakeover -d
 
 Star ⭐ the repo if this tool helps you find critical vulnerabilities!
+
 
 
 
