@@ -192,7 +192,6 @@ Found a bug? Want a feature?
 
  Run these commands:
 
- # Fix line endings and install
 sed -i 's/\r$//' install.sh && sed -i 's/\r$//' SubTakeover.sh && \
 chmod +x install.sh SubTakeover.sh && \
 bash install.sh
@@ -208,6 +207,7 @@ bash install.sh
 assetfinder target.com | subtakeover -d
 
 Star ⭐ the repo if this tool helps you find critical vulnerabilities!
+
 
 
 
