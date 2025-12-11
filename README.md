@@ -52,7 +52,7 @@ subtakeover -h
 ![SubTakeover Demo](https://img.shields.io/badge/DEMO-Interactive_Scan-blue)
 
 ╔══════════════════════════════════════════════╗
-║           SUBDOMAIN TAKEOVER SCANNER                        ║
+║           SUBDOMAIN TAKEOVER SCANNER         ║
 ╚══════════════════════════════════════════════╝
 Target: github.com | Concurrency: 50 | Time: 00:45
 
@@ -177,8 +177,6 @@ Found a bug? Want a feature?
 
 - Issues: [GitHub](https://github.com/varunsulakhe/SubTakeover/issues)
 - Twitter: [@varunsulakhe](https://twitter.com/varunsulakhe)
-- Email: security@varunsulakhe.com
-
 
 🔥 Pro Tip: Combine with other tools for maximum coverage:
 
@@ -186,3 +184,4 @@ Found a bug? Want a feature?
 assetfinder target.com | subtakeover -d
 
 Star ⭐ the repo if this tool helps you find critical vulnerabilities!
+
