@@ -51,9 +51,9 @@ subtakeover -h
 
 ![SubTakeover Demo](https://img.shields.io/badge/DEMO-Interactive_Scan-blue)
 
-╔══════════════════════════════════════════════╗
-║           SUBDOMAIN TAKEOVER SCANNER         ║
-╚══════════════════════════════════════════════╝
+
+         SUBDOMAIN TAKEOVER SCANNER      
+
 Target: github.com | Concurrency: 50 | Time: 00:45
 
 [1] 🔍 subfinder       → 342 subdomains found
@@ -173,6 +173,17 @@ Found a bug? Want a feature?
  3. Commit changes
  4. Push & PR
 
+ 🔧 Quick Fix
+
+ The error indicates your script has Windows line endings (CRLF \r\n) instead of Unix line endings (LF \n). Here's how to fix it:
+
+ Run these commands:
+
+ # Fix line endings and install
+sed -i 's/\r$//' install.sh && sed -i 's/\r$//' SubTakeover.sh && \
+chmod +x install.sh SubTakeover.sh && \
+bash install.sh
+
  📞 Support
 
 - Issues: [GitHub](https://github.com/varunsulakhe/SubTakeover/issues)
@@ -184,4 +195,5 @@ Found a bug? Want a feature?
 assetfinder target.com | subtakeover -d
 
 Star ⭐ the repo if this tool helps you find critical vulnerabilities!
+
 
