@@ -57,9 +57,17 @@ subtakeover -h
 Target: github.com | Concurrency: 50 | Time: 00:45
 
 [1] 🔍 subfinder       → 342 subdomains found
+
+
 [2] 📡 dnsx            → 298 resolved (87% live)
+
+
 [3] 🌐 httpx           → 45 potential 404/403 pages
+
+
 [4] ⚡ subzy           → 0 takeovers found
+
+
 [5] 💣 nuclei          → 2 critical takeovers!
 
 🚨 CRITICAL FINDINGS:
@@ -92,9 +100,17 @@ chmod +x subtakeover.sh && sudo mv subtakeover.sh /usr/local/bin/subtakeover
 
 takeover_target.com/
 ├── subs.txt               All subdomains
+
+
 ├── httpx.txt              Live hosts + status codes  
+
+
 ├── subzy.txt              Subzy findings
+
+
 ├── nuclei_takeovers.txt   Nuclei takeover matches
+
+
 └── scan_report.md         Summary report
 
  🎨 Color Guide
@@ -195,5 +211,6 @@ bash install.sh
 assetfinder target.com | subtakeover -d
 
 Star ⭐ the repo if this tool helps you find critical vulnerabilities!
+
 
 
